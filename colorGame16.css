@@ -1,0 +1,84 @@
+body{
+   color: RGB(68, 131, 171);
+   font-family: "Avenir";
+   background: #000000;
+   font-size: 1.2em;
+   font-weight: 600;
+   margin: 0;
+}
+
+h1{
+   color: white;
+   text-transform: uppercase;
+   line-height: 1.1;
+   text-align: center;
+   background: RGB(68, 131, 171);
+   font-size: 2.3em;
+   padding: 25px 0;
+   margin: 0;
+   text-shadow: RGB(0, 0, 0) 5px 5px 5px;
+}
+
+button{
+   color: RGB(68, 131, 171);
+   font-size: inherit;
+   font-weight: 600;
+   margin-left:10px; 
+   margin-right: 10px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background: white;
+   border-width: 0px;
+   outline: none;
+   transition: all 0.4s;
+
+}
+
+.sqr{
+   width: 22.5%;
+   padding-top: 22.5%;
+   background: #000000;
+   float: left;
+   margin: 1.25%;
+   transition: background 2.0s;
+   -webkit-transition: background 2.0s;
+   -moz-transition: background 2.0s;
+}
+
+#sqrsContainer{
+   max-width: 800px;
+   margin: 0.7% auto;
+}
+
+#stripe{
+   text-align: center;
+   background: white;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   margin: 0;
+}
+
+#message{
+   display: inline-block;
+   width: 12.5%;
+}
+
+#easyBtn{
+   margin-right: 0px;
+}
+
+#resetBtn{
+   margin-right:80px;
+}
+
+button:hover{
+   color: white !important;
+   background: RGB(68, 131, 171) !important;
+   cursor: pointer;
+}
+
+.selected{
+   color: white;
+   background: RGB(68, 131, 171);
+}
+
