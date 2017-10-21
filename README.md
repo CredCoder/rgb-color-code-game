@@ -2,6 +2,8 @@
 
 ## Match the RGB Color Code in the heading with the square that is that color.
 
+## Use the image below to aid in selection.
+
 ![Figure 1-1](https://raw.github.com/credcoder/rgb-color-code-game/master/images/figure1-1.png "Figure 1-1")
 
 ## Has three levels of difficulty:

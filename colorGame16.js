@@ -132,7 +132,7 @@ function reset(){
    resetBtn.textContent = "New Colors";
    for(i = 0; i < rgbColSqrsArr.length; i++){
       squares[i].style.background = rgbColSqrsArr[i];
-      squares[i].style.display = "block";//because deleteSqrs() set style.display = "none"
+      squares[i].style.display = "block";
    }
    resetModeBtnBackground();
 }

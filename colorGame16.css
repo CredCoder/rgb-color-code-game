@@ -40,9 +40,9 @@ button{
    background: #000000;
    float: left;
    margin: 1.25%;
-   transition: background 2.0s;
-   -webkit-transition: background 2.0s;
-   -moz-transition: background 2.0s;
+   transition: background 1.5s;
+   -webkit-transition: background 1.5s;
+   -moz-transition: background 1.5s;
 }
 
 #sqrsContainer{
